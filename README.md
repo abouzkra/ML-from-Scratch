@@ -85,7 +85,7 @@ To ensure consistency and clarity across all notebooks, every notebook should mo
 
 ### 07_information_retrieval:
 - [x] [01_TF-IDF](./notebooks/07_information_retrieval/01_TF-IDF.ipynb)
-- [x] [02_BM25](./notebooks/07_information_retrieval/01_BM25.ipynb)
+- [x] [02_BM25](./notebooks/07_information_retrieval/02_BM25.ipynb)
 
 ### miscellaneous:
 - [ ] cosine-similarity.ipynb
