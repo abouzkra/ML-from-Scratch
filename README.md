@@ -25,7 +25,7 @@ To ensure consistency and clarity across all notebooks, every notebook should mo
 - **When vs When not to use**
 
 ### 3. Concept & Mathematics
-- **Mathematical Formulation**
+- **Mathematical Formulation:** Brief summary with LaTeX written equations/formulas.
 - **Mathematical Derivation** (If applicable)
 - **Implementation stategies:** discussion about the implementation approaches (e.g. iterative vs. vectorized/optimized)
 - **Time/Space complexity**
