@@ -8,7 +8,7 @@ Machine Learning is a vast field, everyone that studies it gets hit with the eno
 The primary goals of this project are:
 
 - **Demistification through implementation:** As the covered algorithms/concepts are bulit from scratch using `Numpy`, we bypass the abstraction layers of production-ready frameworks (e.g. `scikit-learn` or `PyTorch`) to expose the underlying logic (of course we're not going to implement production-level optimizations but we're going to go through some of them).
-- **Unify the learning paht:** This project serves as a great end-to-end guide/roadmap, that gathers foundational concepts into one well ordered/documented reference.
+- **Unify the learning path:** This project serves as a great end-to-end guide/roadmap, that gathers foundational concepts into one well ordered/documented reference.
 - **A 'First Principles' approach:** This repository targets students/engineers like me, as it prioritizes clarity and mathematical coverage, ensuring that anyone who has to 'start somewhere' can build a robust AI/ML foundation.
 
 # Notebook structure
