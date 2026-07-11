@@ -39,7 +39,7 @@ To ensure consistency and clarity across all notebooks, every notebook should mo
 
 # Roadmap & Status
 
-![](https://geps.dev/progress/25.0) 7/28 notebooks done
+![](https://geps.dev/progress/21.0) 6/28 notebooks done
 
 ### 01_regression:
 
