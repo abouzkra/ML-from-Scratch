@@ -1,0 +1,18 @@
+[project]
+name = "ml_from_scratch"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+	"pandas",
+	"matplotlib",
+	"scikit-learn",
+	"ipykernel",
+	"nltk"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
