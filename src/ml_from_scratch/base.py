@@ -10,15 +10,8 @@ class MLBaseModel(ABC):
 
 class Supervised(MLBaseModel):
     @abstractmethod
-    def fit(self, X, y):
+    def predict(self, *args, **kwargs):
         pass
-
-    @abstractmethod
-    def predict(self, X, y):
-        pass
-
-    def score(self, X_test, y_test):
-        return np.mean(self.predict(X_test) == y_test)
 
 
 class Regressor(Supervised):
@@ -33,5 +26,5 @@ class Classifier(Supervised):
 
 class Unsupervised(MLBaseModel):
     @abstractmethod
-    def transform(self, X):
+    def transform(self, *args, **kwargs):
         pass
