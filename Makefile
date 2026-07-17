@@ -1,7 +1,7 @@
 install:
-	UV_CACHE_DIR=~/.goinfre/.cache uv sync
-	UV_CACHE_DIR=~/.goinfre/.cache uv pip install -e .
-	UV_CACHE_DIR=~/.goinfre/.cache uv run python -m ipykernel install --user --name=ML_venv --display-name="ML-from-scratch"
+	uv sync
+	uv pip install -e .
+	uv run python -m ipykernel install --user --name=ML_venv --display-name="ML-from-scratch"
 
 clean:
 	rm -rf .venv/
