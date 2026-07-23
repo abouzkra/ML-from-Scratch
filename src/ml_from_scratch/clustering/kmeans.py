@@ -9,6 +9,7 @@ class KMeans(Unsupervised):
         self.centroids = None
         self.save_centroid_updates = save_centroid_updates
         self.centroid_updates = None
+        self.inertia_ = None
 
     def fit(self, X):
         X = np.asarray(X)
@@ -40,6 +41,8 @@ class KMeans(Unsupervised):
             if np.allclose(old_centroids, self.centroids):
                 self.centroid_updates = self.centroid_updates[:_ + 1]
                 break
+
+        self.inertia_ = np.sum((X - self.centroids[labels]) ** 2)
 
     def transform(self, X):
         return np.argmin(
